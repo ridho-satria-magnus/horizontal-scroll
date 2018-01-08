@@ -21,8 +21,12 @@ div.scrollmenu {
     overflow: auto;
     white-space: nowrap;
 }
-
-
+.rotate-90deg {
+    transform: rotate(-90deg);
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 div.scrollmenu a {
     display: inline-block;
     padding: 20px;
