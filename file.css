@@ -17,6 +17,16 @@
     background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
     background: linear-gradient(to right, #2B32B2, #1488CC);
 }
+.bg-green-sky {
+background: #04ff7f;
+background: -webkit-linear-gradient(to left, #24d9fe, #04ff7f);
+background: linear-gradient(to left, #24d9fe, #04ff7f);
+}
+.bg-red-surcois {
+  background: #ee0968;
+  background: -webkit-linear-gradient(to left, #ff0027, #ee0968);
+  background: linear-gradient(to left, #ff0027, #ee0968);
+}
 div.scrollmenu {
     overflow: auto;
     white-space: nowrap;
