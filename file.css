@@ -1,0 +1,58 @@
+
+.m-b-0 {
+  margin-bottom: 0px;
+}
+.bg-purple {
+  background: #7F00FF;
+  background: -webkit-linear-gradient(to left, #E100FF, #7F00FF); 
+  background: linear-gradient(to left, #E100FF, #7F00FF);
+}
+.bg-orange {
+  background: #ee0979;
+  background: -webkit-linear-gradient(to left, #ff6a00, #ee0979);
+  background: linear-gradient(to left, #ff6a00, #ee0979);
+}
+.bg-blue {
+    background: #1488CC;
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+}
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+div.scrollmenu a {
+    display: inline-block;
+    padding: 20px;
+    width:300px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius:3px;
+    position:relative;
+    overflow:hidden;
+    color:white;
+}
+div.scrollmenu a:first-child {
+  margin-left:20px;
+}
+div.scrollmenu a:last-child {
+  margin-right:20px;
+}
+div.scrollmenu a:hover {
+    /*background-color: #777;*/
+}
+div.scrollmenu a .fa {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    font-size: 10rem;
+    opacity: .3;
+}
+.thumb-number {
+  margin-top:1.5em;
+}
